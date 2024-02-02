@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background-wood-cartoon" translatesAutoresizingMaskIntoConstraints="NO" id="Hc7-9p-atX">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rock" translatesAutoresizingMaskIntoConstraints="NO" id="JxG-Rh-FI3">
+                                <rect key="frame" x="120" y="347" width="150" height="150"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jji-8g-8wg">
+                                <rect key="frame" x="150" y="497" width="90" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" systemColor="systemGray3Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="JxG-Rh-FI3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="33I-1w-b7c"/>
+                            <constraint firstItem="Hc7-9p-atX" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="3RV-Rq-kzJ"/>
+                            <constraint firstItem="Hc7-9p-atX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BdY-WN-1ms"/>
+                            <constraint firstItem="jji-8g-8wg" firstAttribute="top" secondItem="JxG-Rh-FI3" secondAttribute="bottom" id="RfI-cl-sYD"/>
+                            <constraint firstItem="Hc7-9p-atX" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TvR-BY-4YG"/>
+                            <constraint firstItem="jji-8g-8wg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="oCg-4u-GMn"/>
+                            <constraint firstAttribute="bottom" secondItem="Hc7-9p-atX" secondAttribute="bottom" id="pwU-YK-wlV"/>
+                            <constraint firstItem="JxG-Rh-FI3" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="x3r-gq-dHc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.307692307692307" y="374.64454976303318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background-wood-cartoon" width="430" height="932"/>
+        <image name="rock" width="150" height="150"/>
+        <systemColor name="systemGray3Color">
+            <color red="0.78039215689999997" green="0.78039215689999997" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
